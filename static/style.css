@@ -1,9 +1,14 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0%;
 }
 
 /* header secation */
+.header{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: black;
+}
 .navbar{
     background-color: black;
     width: auto;
@@ -12,16 +17,18 @@
 }
 .navbar h6{
     color: white;
-    letter-spacing: 18px;
+    letter-spacing: 12px;
+    margin-right: 70px;
 }
 .nav {
     justify-content: end;
 }
 .nav-link{
-    margin-right: 75px;
+    float: right;
+    margin-right: 30px;
 }
 .nav-link h6{
-    letter-spacing: 12px;
+    letter-spacing: 8px;
 }
 
 /* main secation */
